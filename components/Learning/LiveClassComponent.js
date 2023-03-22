@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Jutsu } from "react-jutsu";
+// import { Jutsu } from "react-jutsu";
 
 const LiveClassComponent = ({ slug, first_name, last_name }) => {
 	const [room, setRoom] = useState(slug);
@@ -14,14 +14,14 @@ const LiveClassComponent = ({ slug, first_name, last_name }) => {
 	return (
 		<div>
 			{call ? (
-				<Jutsu
-					doamin="meet.jit.si"
-					roomName={room}
-					displayName={name}
-					onMeetingEnd={() => console.log("Meeting has ended")}
-					loadingComponent={<p> jitsi is loading ...</p>}
-					containerStyles={{ width: "100%", height: "600px" }}
-				/>
+// 				<Jutsu
+// 					doamin="meet.jit.si"
+// 					roomName={room}
+// 					displayName={name}
+// 					onMeetingEnd={() => console.log("Meeting has ended")}
+// 					loadingComponent={<p> jitsi is loading ...</p>}
+// 					containerStyles={{ width: "100%", height: "600px" }}
+// 				/>
 			) : (
 				<form className="row row-cols-lg-auto g-3 align-items-center">
 					<div className="col-12">
