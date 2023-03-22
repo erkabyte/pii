@@ -22,6 +22,7 @@ const LiveClassComponent = ({ slug, first_name, last_name }) => {
 // 					loadingComponent={<p> jitsi is loading ...</p>}
 // 					containerStyles={{ width: "100%", height: "600px" }}
 // 				/>
+			 <div></div>
 			) : (
 				<form className="row row-cols-lg-auto g-3 align-items-center">
 					<div className="col-12">
